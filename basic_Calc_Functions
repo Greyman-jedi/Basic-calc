@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+int main()
+void addition (char)
+
+{
+    int a;
+    int b;
+    int c;
+    char op;
+    
+    cout << "input the first number"<< endl;
+    cin >> a;
+    
+    cout << "enter your operator" <<endl
+    cin >> op
+    
+    cout << "Now input a second number" << endl;
+    cin >> b;
+
+    
+    cout << "the answer is " << c << endl;
+    return 0;
+    
+    
+    if
+    void addition (op =='+')
+    {
+        return c = a + b;
+        
+    }
+}
