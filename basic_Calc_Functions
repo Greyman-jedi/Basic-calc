@@ -2,30 +2,71 @@
 
 using namespace std;
 
+/*int add (int a, int b)        Just a straight forward function creation
+{
+        return a+b;
+}
+
+int sub (int a, int b)
+{
+        return a-b;
+}
+
+int mul (int a, int b)
+{
+        return a*b;
+}
+
+int dif (int a, int b)
+{
+        return a/b;
+}
+
 int basic_math (char op, int a, int b)
 
     {
+    int result;
+    
+    
     if(op == '+')
     {
-        return a+b;
+        result= add(a,b);
     }
     else
     if(op == '-')
     {
-        return a-b;
+        result= sub(a,b);
     }
     else
     if(op=='*')
     {
-        return a*b;
+        result= mul(a,b);
     }
     else
     if(op=='/')
     {
-        return a/b;
+        result= dif(a,b);
     }
+    return result;
     
 };
+
+*/
+
+int add (int a, int b);             /* prototyping function */ 
+
+int sub (int a, int b);
+
+
+int mul (int a, int b);
+
+
+int dif (int a, int b);
+
+
+int basic_math (char op, int a, int b);
+
+    
 
 int main()
 
@@ -51,3 +92,53 @@ int main()
     return 0;
 
 }
+
+
+int add (int a, int b)
+{
+        return a+b;
+}
+
+int sub (int a, int b)
+{
+        return a-b;
+}
+
+int mul (int a, int b)
+{
+        return a*b;
+}
+
+int dif (int a, int b)
+{
+        return a/b;
+}
+
+int basic_math (char op, int a, int b)
+
+    {
+    int result;
+    
+    
+    if(op == '+')
+    {
+        result= add(a,b);
+    }
+    else
+    if(op == '-')
+    {
+        result= sub(a,b);
+    }
+    else
+    if(op=='*')
+    {
+        result= mul(a,b);
+    }
+    else
+    if(op=='/')
+    {
+        result= dif(a,b);
+    }
+    return result;
+    
+};
