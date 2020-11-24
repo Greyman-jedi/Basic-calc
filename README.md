@@ -1,25 +1,5 @@
 # Basic Calc- firstrial
 \\Just a basic repository that will build overtime to being a main.//
 
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    int a;
-    int b;
-    int c;
-    
-    cout << "input the first number"<< endl;
-    
-    cin >> a;
-    
-    cout << "Now input a second number" << endl;
-    
-    cin >> b;
-
-    c = a + b;
-    cout << "the answer is " << c << endl;
-    return 0;
-}
+This program is an overly complicated version of a basic calculator. I figured it might help anyone who is looking to use it to practice or improve the calculator.
+Its not meant to be the best but give options on how to make your own calculator.
